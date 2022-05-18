@@ -25,6 +25,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: var(--main-bg);
 }
+section.main{
+    padding: 3rem 0 0;
+}
 .m-nav{
     display: flex;
     justify-content: space-between;
@@ -33,7 +36,8 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 3rem;
+    padding: 4rem 3rem 1rem;
+    background-color: var(--intro-bg);
 }
 .m-nav .logo{
     width: 120px;
@@ -197,7 +201,7 @@ body{
 }
 .testimonials .box{
     background-color: var(--intro-bg);
-    padding: 1.5rem 1rem;
+    padding: 3.5rem 2rem;
     display: grid;
     gap: 1rem;
     border-radius: 5px;
@@ -277,7 +281,7 @@ body{
 }
 
 .bottom {
-    padding: 10rem 7rem 4rem;
+    padding: 10rem 7rem 7rem;
     color: var(--White);
     background-color: hsl(216, 53%, 9%);
     font-size: 14px;
@@ -308,7 +312,7 @@ body{
     display: grid;
     gap: 1rem;
 }
-.bottom .contact span{
+.bottom .contact div{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -324,7 +328,7 @@ body{
     align-items: center;
     gap: 1rem;
 }
-.bottom .icons span{
+.bottom .icons div{
     border: 1px solid var(--White);
     border-radius: 50%;
     padding: 5px;
