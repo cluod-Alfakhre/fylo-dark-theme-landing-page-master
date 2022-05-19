@@ -220,7 +220,7 @@ main.main{
     width: 30px;
     border-radius: 50%;
 }
-.testimonials .box .account h3{
+.testimonials .box .account h1{
     font-size: 15px;
     color: var(--White);
 }
